@@ -1,7 +1,8 @@
 head{}
 body{font-family: 'Dolbomche_B';}
 #wrapper{}
-#wrapper #header{}
+#wrapper #header{width: 100%;height: 150px;border-bottom: 1px solid #5099f5;margin-bottom: 110px;}
+#wrapper #footer{width: 100%;height: 60px;background: #5099f5;margin-top: 150px;}
 
 #wrapper #wrap{}
 #wrapper #wrap .container{}
@@ -11,5 +12,21 @@ body{font-family: 'Dolbomche_B';}
 #wrap #sec01{}
 #wrap #sec01 .cont_wrap{}
 #wrap #sec01 .cont_wrap .login_box{width: 800px;height: 600px;margin: 0 auto; background: #FFFFFF;border-radius: 20px;-webkit-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.14);-moz-box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.14);box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.14);}
-#wrap #sec01 .cont_wrap .login_box title{}
-#wrap #sec01 .cont_wrap .login_box title p{}
+#wrap #sec01 .cont_wrap .login_box .login_cont{text-align: center;padding: 60px 100px 50px;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .title{margin-bottom: 45px;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .title .title_text{font-size: 60px;color: #00409a;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .title p{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .input_box_cont{width: 600px;height:70px;margin-bottom: 25px; line-height: 70px; background: #e6e6e6;border-radius: 10px;text-align: left;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .input_box_cont input{background: #e6e6e6;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .id_input{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .id_input input[type="text"] + label{background: url('');}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .pw_input{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .save_box{display: flex;justify-content: flex-start;align-items: center;text-align: left;margin-bottom: 25px;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .save_box input[type="checkbox"]{width: 25px;height: 25px;background: url('../image/checkBox_off.png') no-repeat center center;background-size: 100% 100%;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .save_box input[type="checkbox"] + label{padding-left: 10px;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .input_box .save_box input[type="checkbox"]:checked{background: url('../image/checkBox_on.png') no-repeat center center;background-size: 100% 100%;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .button_box{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .button_box .btn_cont{}
+#wrap #sec01 .cont_wrap .login_box .login_cont .button_box .go_btn{width: 600px;height:100px;background: #5099f5;color: #FFFFFF;text-align: center;line-height: 100px; font-family: "Dolbomche_B"; font-size: 36px;border-radius: 10px;margin-bottom: 25px;}
+#wrap #sec01 .cont_wrap .login_box .login_cont .button_box .go_btn a{display: block;width: 100%;height: 100%;color: #FFFFFF;line-height: 100px;text-align: center;font-size: 36px;}

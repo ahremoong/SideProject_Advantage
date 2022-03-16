@@ -1,8 +1,8 @@
 head{}
 body{font-family: 'Dolbomche_B';}
-#wrapper{}
+#wrapper{position: relative;width: 100%;height: 100vh;}
 #wrapper #header{width: 100%;height: 150px;border-bottom: 1px solid #5099f5;margin-bottom: 110px;}
-#wrapper #footer{width: 100%;height: 60px;background: #5099f5;margin-top: 150px;}
+#wrapper #footer{width: 100%;height: 60px;background: #5099f5;margin-top: 150px;position: absolute;bottom: 0;}
 
 #wrapper #wrap{}
 #wrapper #wrap .container{}

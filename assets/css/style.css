@@ -6,6 +6,8 @@ body{font-family: 'Dolbomche_B';}
 #wrapper #header .header_wrap .logo{width: 100px;height: 70px;}
 #wrapper #header .header_wrap .menu_cont{display: flex;justify-content:space-between;align-items: center;}
 #wrapper #header .header_wrap .menu_cont .depth_1{padding: 0 45px;font-family: 'Dolbomche_R';font-size: 30px;color: #00409a;}
+/* #wrapper #header .header_wrap .menu_cont .depth_1::before{display: block;content: '';width: 5px;height: 5px;border-radius: 5px;background: #00409a;margin: 0 auto;} */
+#wrapper #header .header_wrap .menu_cont .depth_1:hover::before{display: block;content: '';width: 5px;height: 5px;border-radius: 5px;background: #00409a;margin: 0 auto;}
 #wrapper #header .header_wrap .menu_cont .depth_1 a{color: #00409a;}
 #wrapper #header .header_wrap .menu_cont .depth_1 .depth_2{display: none;}
 #wrapper #header .header_wrap .other_box{display: flex;justify-content: space-between;align-items: center;}
